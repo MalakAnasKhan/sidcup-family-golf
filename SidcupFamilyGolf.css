@@ -49,7 +49,7 @@ body {
 
 #nav {
     height: auto;
-    min-height: 100px;
+    min-height: 10vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -146,6 +146,7 @@ video {
 #page1 {
     height: 100vh;
     width: 100%;
+    padding-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,11 +156,11 @@ video {
     position: relative;
 }
 #page1 .downward-arrow{
-    width: 230px;
-    height: 230px;
+    width: 25vh;
+    height: 25vh;
     border: 2px solid #a2ce04;
     border-radius: 50%;
-    color: red;
+    /* color: red; */
     position: absolute;
     left: -4%;
     bottom: 0;
@@ -170,7 +171,7 @@ video {
     cursor: pointer;
 }
 #page1 .downward-arrow i{
-    font-size: 28px;
+    font-size: 24px;
 }
 #page1 .downward-arrow:hover{
     background-color: #a2ce04;
@@ -178,14 +179,13 @@ video {
 }
 #page1 h1 {
     font-size: 8vw;
+    line-height: 8vw;
     /* width: 100%; */
     text-transform: uppercase;
     font-weight: 900;
-    line-height: 130px;
     position: relative;
     z-index: 2;
 }
-
 #page1 h1::before {
     content: "Eat. Drink. Play.";
     position: absolute;
@@ -195,20 +195,18 @@ video {
     z-index: -1;
     -webkit-text-stroke: .4px #c8ff2f;
 }
-
 #page1 h2 {
-    font-size: 30px;
-    padding: 20px 0px;
+    font-size: 2vw;
+    padding: 1.2vw 0vw;
     text-transform: uppercase;
     font-weight: 800;
     z-index: 2;
 }
-
 #page1 p {
-    font-size: 20px;
+    font-size: 1.2vw;
+    line-height: 1.8vw;
     width: 45%;
     z-index: 2;
-    line-height: 32px;
 }
 
 #page2 {
@@ -217,7 +215,6 @@ video {
     position: relative;
     z-index: 2;
 }
-
 #page2 #scroller {
     /* background-color: red; */
     white-space: nowrap;
@@ -226,11 +223,9 @@ video {
     position: relative;
     z-index: 10;
 }
-
 #scroller::-webkit-scrollbar {
     display: none;
 }
-
 #scroller-in {
     display: inline-block;
     white-space: nowrap;
@@ -239,11 +234,10 @@ video {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
 #scroller h4 {
     display: inline-block;
     font-family: poppins;
-    font-size: 130px;
+    font-size: 10vw;
     text-transform: uppercase;
     color: black;
     font-weight: 900;
@@ -251,13 +245,11 @@ video {
     margin-right: 28px;
     transition: all ease 0.6s;
 }
-
 #scroller h4:hover {
     color: #a2ce04;
     -webkit-text-stroke: 1px #a2ce04;
 
 }
-
 @keyframes scroll {
     from {
         transform: translateX(0);
@@ -267,9 +259,8 @@ video {
         transform: translateX(-100%);
     }
 }
-
 #about-us {
-    height: 46vh;
+    min-height: 46vh;
     margin-top: 30px;
     width: 100%;
     /* background-color: rgb(131, 0, 0); */
@@ -278,28 +269,24 @@ video {
     justify-content: space-around;
     padding: 0 40px;
 }
-
 #about-us img {
     width: 180px;
     height: 180px;
     object-fit: cover;
     border-radius: 20px;
 }
-
 #about-us-in {
     text-align: center;
-    width: 58%;
+    width: 54%;
 }
-
 #about-us-in h3 {
     text-transform: uppercase;
-    font-size: 52px;
+    font-size: 3.2vw;
     font-weight: 900;
 }
-
 #about-us-in p {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 1.2vw;
+    line-height: 2vw;
     padding: 20px 0;
 }
 
@@ -310,17 +297,16 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
-    gap: 50px;
+    padding: 30px 0;
+    gap: 4vw;
     cursor: pointer;
 }
-
 #cards-container #cards {
     z-index: 10;
-    height: 80%;
+    height: 84%;
     width: 26%;
     /* background-color: blue; */
-    border-radius: 20px;
+    border-radius: 0.8vw;
     object-fit: cover;
     background-size: cover;
     background-position: center;
@@ -328,12 +314,6 @@ video {
     position: relative;
     transition: all ease 0.4s;
 }
-
-#cards h3 {
-    font-size: 30px;
-    font-weight: 900;
-}
-
 .card1 {
     background-image: url(./Images/card\ 1.jpg);
 }
@@ -350,15 +330,16 @@ video {
     background-color: #a2ce04;
     height: 100%;
     width: 100%;
-    padding: 150px 36px 0;
+    padding: 8vw 2.2vw 0vw;
+    position: relative;
     opacity: 0;
     transition: all ease 0.5s;
     z-index: 12;
 }
 .overlay a{
     text-decoration: none;
-    width: 140px;
-    height: 140px;
+    width: 8vw;
+    height: 8vw;
     position: absolute;
     top: -5%;
     right: -5%;
@@ -371,7 +352,7 @@ video {
     transition: all ease 0.4s;
 }
 .overlay i{
-    font-size: 40px;
+    font-size: 2.4vw;
     color: black;
     transition: all ease 0.4s;
 }
@@ -384,43 +365,39 @@ video {
 .overlay h3 {
     color: black;
     text-transform: uppercase;
-    padding-bottom: 20px;
-    font-size: 42px !important;
+    padding-bottom: 1.4vw;
+    font-size: 2.6vw;
+    font-weight: 900;
 }
-
 .overlay p {
     color: black;
-    font-size: 18px;
+    font-size: 1.1vw;
+    line-height: 1.8vw;
     padding-bottom: 20px;
-    line-height: 28px;
 }
-
 #cards:hover .overlay {
     opacity: 1;
 }
-
 .cards-h3 {
     position: absolute;
     left: 20px;
     top: 70%;
     text-transform: uppercase;
-    font-size: 42px !important;
+    font-size: 2.6vw;
+    font-weight: 900;
 }
-
 .cards-h5 {
     position: absolute;
     text-transform: uppercase;
     top: 64%;
-    font-size: 24px;
+    font-size: 2.4vw;
     font-weight: 900;
     left: 20px;
 }
-
 #cards:hover .cards-h3,
 .cards-h5 {
     opacity: 0;
 }
-
 #cards:hover {
     transform: rotate3d(-1, 1, 0, 20deg);
 }
@@ -432,17 +409,15 @@ video {
     justify-content: space-between;
     background: linear-gradient(to left bottom, #29a239, #aee222);
 }
-
 #green-div h3 {
     text-align: center;
     width: 45%;
     text-transform: uppercase;
-    font-size: 30px;
-    line-height: 38px;
+    font-size: 2vw;
+    line-height: 2.6vw;
     font-weight: 800;
     color: black;
 }
-
 #green-div img {
     height: 100%;
     object-fit: cover;
@@ -457,38 +432,32 @@ video {
     position: relative;
     z-index: 2;
 }
-
 #food-and-drink {
     padding: 100px;
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 80px;
+    gap: 100px;
 }
-
 #food-and-drink img {
     height: 480px;
-    width: 50%;
+    width: 55%;
     object-fit: cover;
-    border-radius: 16px;
+    border-radius: 1vw;
 }
-
 #food-and-drink #right {
-    width: 50%;
+    width: 45%;
 }
-
 #right h1 {
     text-transform: uppercase;
-    font-size: 50px;
+    font-size: 3.2vw;
     font-weight: 900;
 }
-
 #right p {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 1.2vw;
+    line-height: 2vw;
     margin: 30px 0;
 }
-
 #right button {
     padding: 12px 30px;
     background-color: black;
@@ -496,7 +465,7 @@ video {
     color: white;
     border-radius: 50px;
     border: 3px solid #a2ce04;
-    font-size: 16px;
+    font-size: 1vw;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -563,7 +532,6 @@ video {
     left: -5%;
     margin-top: 50px;
 }
-
 #instagram-scroller {
     display: inline-block;
     white-space: nowrap;
@@ -572,7 +540,6 @@ video {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
-
 #instagram-scroller img {
     margin-left: 20px;
     height: 240px;
@@ -581,7 +548,6 @@ video {
     border-radius: 12px;
     overflow: hidden;
 }
-
 @keyframes scroll {
     from {
         transform: translateX(0);
@@ -591,11 +557,9 @@ video {
         transform: translateX(-100%);
     }
 }
-
 #instagram-scroller a {
     text-decoration: none;
 }
-
 #instagram-icon {
     display: flex;
     align-items: center;
@@ -604,12 +568,10 @@ video {
     z-index: 100;
     text-decoration: none;
 }
-
 #instagram-icon i {
     font-size: 24px;
     text-transform: uppercase;
 }
-
 #instagram-icon p {
     padding-left: 16px;
     text-transform: uppercase;
@@ -625,24 +587,20 @@ video {
     justify-content: center;
     position: relative;
 }
-
 #testimonials p {
-    font-size: 32px;
+    font-size: 1.8vw;
     font-weight: 800;
     text-align: center;
     width: 50%;
 }
-
 #testimonials img {
     position: absolute;
     height: 60px;
 }
-
 #page3 #colon1 {
     left: 16%;
     top: 30%;
 }
-
 #page3 #colon2 {
     right: 16%;
     bottom: 30%;
@@ -663,7 +621,7 @@ video {
     height: 50%;
     width: 26%;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 1vw;
     position: relative;
 }
 .elem h2{
@@ -675,7 +633,7 @@ video {
     text-align: center;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 2vw;
     position: absolute;
     font-weight: 900;
     color: black;
@@ -707,6 +665,7 @@ video {
     text-align: center;
     -webkit-text-stroke: 2px #ffffff;
 }
+
 #page5{
     height: 45vh;
     background: linear-gradient(to left bottom, #45a229, #c8ff2f);
@@ -716,7 +675,6 @@ video {
     padding: 0 6%;
     position: relative;
 }
-
 .main-content{
     width: 100%;
     height: 100%;
@@ -739,7 +697,7 @@ video {
 .left-side-icons i{
     transition: all ease 0.4s;
     color: black;
-    font-size: 30px;
+    font-size: 2vw;
 }
 .left-side-icons i:hover{
     color: white;
@@ -747,7 +705,8 @@ video {
 .middle a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 2vw;
+    line-height: 3vw;
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -755,7 +714,6 @@ video {
     color: black;
     cursor: pointer;
     transition: all ease 0.4s;
-    line-height: 48px;
 }
 .middle a:hover{
     color: white;
@@ -765,10 +723,10 @@ video {
 }
 .right-side p{
     color: black;
-    font-size: 18px;
+    font-size: 1vw;
+    line-height: 1.6vw;
     font-weight: 600;
     text-transform: uppercase;
-    line-height: 26px;
 }
 .right-side p span{
     color: black;
@@ -781,7 +739,7 @@ video {
 .right-side a{
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.2vw;
     font-weight: 900;
     color: black;
     z-index: 1000;
@@ -800,7 +758,7 @@ video {
 }
 .copyright-section p{
     color: black;
-    font-size: 14px;
+    font-size: 0.8vw;
     font-weight: 500;
 }
 .copyright-section a{
@@ -808,7 +766,7 @@ video {
     text-decoration: none;
     cursor: pointer;
     transition: all ease 0.4s;
-    font-size: 14px;
+    font-size: 0.8vw;
     font-weight: 500;
 }
 .copyright-section a:hover{

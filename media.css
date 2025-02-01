@@ -1,3 +1,258 @@
-@media (max-width: 1440px) { 
-    
+@media (max-width: 1366px) { 
+    #about-us-in {
+        text-align: center;
+        width: 48%;
+    }
+    #cards-container {
+        height: 100vh;
+        margin: 2vw 0vw;
+    }
+    #cards-container #cards {
+        height: 90%;
+        border-radius: 10px;
+    }
+    #food-and-drink img {
+        height: 400px;
+        width: 56%;
+        object-fit: cover;
+        border-radius: 1vw;
+    }
+    #food-and-drink #right {
+        width: 44%;
+    }
+}
+@media (max-width: 320px) { 
+    #cursor {
+        display: none;
+    }
+    #nav img {
+        height: 16vw;
+    }
+    .nav-links a {
+        display: none;
+    }
+    .nav-buttons button {
+        border: 2px solid #a2ce04;
+        font-size: 4vw;
+    }
+    .nav-buttons button:nth-child(2){
+        display: none;
+    }
+    #page1 h1 {
+        font-size: 18vw;
+        line-height: 18vw;
+        width: 80%;
+    }
+    #page1 h2 {
+        font-size: 6vw;
+        width: 80%;
+        padding: 3vw 0vw;
+    }
+    #page1 p {
+        font-size: 4vw;
+        line-height: 6vw;
+        width: 80%;
+    }
+    #scroller h4 {
+        font-size: 18vw;
+        margin-right: 18px;
+    }
+    #about-us {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        padding: 0 10%;
+    }
+    #about-us img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    #about-us-in {
+        text-align: center;
+        width: 100%;
+    }
+    #about-us-in h3 {
+        font-size: 6vw;
+    }
+    #about-us-in p {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    #cards-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        min-height: 200vh;
+    }
+    #cards-container #cards {
+        width: 80%;
+        border-radius: 10px;
+        height: 100%;
+    }
+    .cards-h3 {
+        font-size: 8vw;
+    }
+    .overlay {
+        padding: 28vw 4vw 0vw;
+        position: relative;
+        opacity: 0;
+        transition: all ease 0.5s;
+        z-index: 12;
+    }
+    .overlay a{
+        width: 18vw;
+        height: 18vw;
+        top: -3%;
+        right: -3%;
+    }
+    .overlay i{
+        font-size: 4vw;
+    }
+    .overlay h3 {
+        color: black;
+        text-transform: uppercase;
+        padding-bottom: 4vw;
+        font-size: 6vw;
+    }
+    .overlay p {
+        font-size: 3.6vw;
+        line-height: 4.8vw;
+    }
+    #green-div h3 {
+        width: 80%;
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    #food-and-drink {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 0;
+    }
+    #food-and-drink img {
+        height: 180px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    #food-and-drink #right {
+        width: 80%;
+    }
+    #right h1 {
+        font-size: 6vw;
+    }
+    #right p {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    #right button {
+        border: 2px solid #a2ce04;
+        font-size: 4vw;
+    }
+    #instagram-links {
+        margin-top: 20px;
+    }
+    #instagram-scroller img {
+        width: 180px;
+        border-radius: 10px;
+    }
+    #instagram-icon {
+        margin: 10px;
+    }
+    #instagram-icon i {
+        font-size: 16px;
+    }
+    #instagram-icon p {
+        font-size: 18px;
+    }
+    #testimonials p {
+        font-size: 5vw;
+        width: 80%;
+    }
+    #testimonials img {
+        height: 20px;
+    }
+    #page3 #colon1 {
+        left: 15%;
+        top: 15%;
+    }
+    #page3 #colon2 {
+        right: 15%;
+        bottom: 15%;
+    }
+    #page4{
+        min-height: 100vh;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #page4 .elem{
+        height: 100%;
+        width: 80%;
+        border-radius: 10px;
+    }
+    .elem h2{
+        font-size: 8vw;
+    }
+    #page4 h1{
+        font-size: 5vw;
+        top: -6%;
+        -webkit-text-stroke: 0.4px #ffffff;
+    }
+    #page5{
+        min-height: 120vh;
+        padding: 10%;
+    }
+    .main-content{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .left-side{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-side img{
+        height: 16vw;
+    }
+    .left-side-icons{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .left-side-icons i{
+        font-size: 8vw;
+    }
+    .middle a{
+        font-size: 6vw;
+        text-align: left;
+        line-height: 8vw;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .right-side p{
+        font-size: 6vw;
+        line-height: 8vw;
+    }
+    .right-side a{
+        font-size: 6vw;
+    }
+    .copyright-section{
+        flex-direction: column;
+        margin: 6% 0;
+    }
+    .copyright-section p{
+        color: black;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    .copyright-section a{
+        margin-top: 6%;
+        font-size: 4vw;
+    }
+    #page5 .footer-image-dots{
+        width: 100%;
+    }
 }
