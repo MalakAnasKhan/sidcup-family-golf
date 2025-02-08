@@ -300,6 +300,7 @@ video {
     padding: 30px 0;
     gap: 4vw;
     cursor: pointer;
+    position: relative;
 }
 #cards-container #cards {
     z-index: 10;
@@ -313,6 +314,14 @@ video {
     overflow: hidden;
     position: relative;
     transition: all ease 0.4s;
+}
+.cards-h3 {
+    position: absolute;
+    left: 20px;
+    top: 70%;
+    text-transform: uppercase;
+    font-size: 2.6vw;
+    font-weight: 900;
 }
 .card1 {
     background-image: url(./Images/card\ 1.jpg);
@@ -331,7 +340,7 @@ video {
     height: 100%;
     width: 100%;
     padding: 8vw 2.2vw 0vw;
-    position: relative;
+    position: absolute;
     opacity: 0;
     transition: all ease 0.5s;
     z-index: 12;
@@ -377,14 +386,6 @@ video {
 }
 #cards:hover .overlay {
     opacity: 1;
-}
-.cards-h3 {
-    position: absolute;
-    left: 20px;
-    top: 70%;
-    text-transform: uppercase;
-    font-size: 2.6vw;
-    font-weight: 900;
 }
 .cards-h5 {
     position: absolute;

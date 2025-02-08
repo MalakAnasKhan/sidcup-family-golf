@@ -21,6 +21,224 @@
         width: 44%;
     }
 }
+
+@media (max-width: 799px) { 
+    #cursor {
+        display: none;
+    }
+    .nav-links a {
+        display: none;
+    }
+    #nav img {
+        height: 9vw;
+    }
+    .nav-buttons button {
+        border: 2px solid #a2ce04;
+        font-size: 2vw;
+    }
+    #page1 h2 {
+        font-size: 3.6vw;
+    }
+    #page1 p {
+        font-size: 2.2vw;
+        line-height: 3vw;
+        width: 80%;
+    }
+    #about-us {
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+        padding: 0;
+        gap: 30px;
+    }
+    #about-us img {
+        width: 50%;
+        height: auto;
+    }
+    #about-us-in {
+        width: 100%;
+    }
+    #about-us-in h3 {
+        font-size: 4.6vw;
+        padding: 0;
+    }
+    #about-us-in p {
+        font-size: 2.4vw;
+        line-height: 4vw;
+    }
+    #about-us img:first-of-type {
+        order: 1;
+    }
+    #about-us img:last-of-type {
+        order: 2;
+    }
+    #about-us-in {
+        order: 3;
+    }
+    #cards-container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        gap: 4vw;
+        cursor: pointer;
+    }
+    #cards-container #cards {
+        height: auto;
+        min-height: 300px;
+        width: 80%;
+        flex-grow: 1;
+    }
+    .cards-h3 {
+        font-size: 4vw;
+    }
+    .overlay {
+        position: absolute;
+    }
+    .overlay a{
+        width: 10vw;
+        height: 10vw;
+        top: -2%;
+        right: -2%;
+    }
+    .overlay h3 {
+        padding-bottom: 2vw;
+        font-size: 4vw;
+    }
+    .overlay p {
+        color: black;
+        font-size: 2vw;
+        line-height: 3vw;
+        padding-bottom: 20px;
+    }
+    #green-div h3 {
+        width: 80%;
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    #food-and-drink {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 0;
+    }
+    #food-and-drink img {
+        min-height: 180px;
+        width: 80%;
+        border-radius: 10px;
+    }
+    #food-and-drink #right {
+        width: 80%;
+    }
+    #right h1 {
+        font-size: 4.6vw;
+    }
+    #right p {
+        font-size: 2.4vw;
+        line-height: 4vw;
+    }
+    #right button {
+        border: 2px solid #a2ce04;
+        font-size: 2vw;
+    }
+    #instagram-icon {
+        justify-content: center;
+        margin: 4vh 0;
+    }
+    #testimonials p {
+        font-size: 3.2vw;
+        width: 80%;
+    }
+    #page3 #colon1 {
+        left: 10%;
+        top: 18%;
+    }
+    #page3 #colon2 {
+        right: 10%;
+        bottom: 18%;
+    }
+    #page4{
+        min-height: 100vh;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    #page4 .elem{
+        height: 100%;
+        width: 80%;
+        border-radius: 10px;
+    }
+    .elem h2{
+        font-size: 4vw;
+        color: white;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.67));
+    }
+    #page4 h1{
+        font-size: 5vw;
+        top: -6%;
+        -webkit-text-stroke: 0.4px #ffffff;
+    }
+    #page5{
+        min-height: 90vh;
+        padding: 6%;
+    }
+    .main-content{
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left-side{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .left-side img{
+        height: 9vw;
+    }
+    .left-side-icons{
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .left-side-icons i{
+        font-size: 4vw;
+    }
+    .middle a{
+        font-size: 3vw;
+        text-align: left;
+        line-height: 4vw;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .right-side p{
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    .right-side a{
+        font-size: 3vw;
+    }
+    .copyright-section{
+        flex-direction: column;
+        margin: 6% 0;
+    }
+    .copyright-section p{
+        color: black;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+    .copyright-section a{
+        margin-top: 6%;
+        font-size: 2vw;
+    }
+    #page5 .footer-image-dots{
+        width: 100%;
+    }
+}
+
+/* Screen Size 320px */
 @media (max-width: 320px) { 
     #cursor {
         display: none;
