@@ -237,6 +237,76 @@
         width: 100%;
     }
 }
+/* Screen Size 425px */
+@media (max-width: 425px){
+    #nav img {
+        height: 12vw;
+    }
+    #page1 h1 {
+        font-size: 16vw;
+        line-height: 16vw;
+        width: 80%;
+    }
+    #page1 h2 {
+        font-size: 6vw;
+        width: 80%;
+        padding: 3vw 0vw;
+    }
+    #page1 p {
+        font-size: 4vw;
+        line-height: 6vw;
+        width: 80%;
+    }
+    #page1 .downward-arrow{
+        width: 18vh;
+        height: 18vh;
+    }
+    #about-us-in h3 {
+        font-size: 6vw;
+    }
+    #about-us-in p{
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    #about-us img {
+        width: 80%;
+    }
+    .cards-h3 {
+        font-size: 6vw;
+    }
+    #green-div h3 {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+    #food-and-drink img{
+        height: 250px;
+    }
+    #right h1 {
+        font-size: 6vw;
+    }
+    #right p {
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .nav-buttons button {
+        font-size: 2.4vw;
+    }
+    #right button {
+        font-size: 2.4vw;
+    }
+    #instagram-icon p {
+        font-size: 18px;
+    }
+    #instagram-icon i {
+        font-size: 18px;
+    }
+    #testimonials {
+        height: 48vh;
+    }
+    #testimonials p {
+        font-size: 4vw;
+    }
+}
 
 /* Screen Size 320px */
 @media (max-width: 320px) { 
