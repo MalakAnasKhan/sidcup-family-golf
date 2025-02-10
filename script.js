@@ -104,7 +104,8 @@ if(leftArrow){
 gsap.to("#nav",{
     backgroundColor: "#000",
     duration: 0.5,
-    height:"100px",
+    height: "100px",
+    padding: "0 6%",
     scrollTrigger:{
         trigger: "#nav",
         scroller:"body",
