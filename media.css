@@ -242,6 +242,9 @@
     #nav img {
         height: 12vw;
     }
+    #page1{
+        padding-top: 0vh;
+    }
     #page1 h1 {
         font-size: 16vw;
         line-height: 16vw;
